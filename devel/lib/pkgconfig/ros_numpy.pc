@@ -1,0 +1,8 @@
+prefix=/home/nvidia/sdc-ernie/devel
+
+Name: ros_numpy
+Description: Description of ros_numpy
+Version: 0.0.2
+Cflags: 
+Libs: -L/home/nvidia/sdc-ernie/devel/lib 
+Requires: 

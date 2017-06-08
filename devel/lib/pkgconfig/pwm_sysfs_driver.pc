@@ -1,0 +1,8 @@
+prefix=/home/nvidia/sdc-ernie/devel
+
+Name: pwm_sysfs_driver
+Description: Description of pwm_sysfs_driver
+Version: 0.0.1
+Cflags: -I/home/nvidia/sdc-ernie/src/racecar/pwm_sysfs_driver/include
+Libs: -L/home/nvidia/sdc-ernie/devel/lib -lpwm_sysfs_driver -lpwm_sysfs_driver_nodelet -lservo_driver_nodelet
+Requires: roscpp std_msgs pluginlib nodelet
